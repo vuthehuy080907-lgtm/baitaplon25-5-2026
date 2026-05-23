@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f7f6;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Tối ưu hóa UI khi lướt và hiệu ứng động */
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08) !important;
+}
+
+.table th {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Định dạng Toast nổi bật */
+.toast-container {
+  z-index: 1100;
+}
